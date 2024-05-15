@@ -1,0 +1,42 @@
+html{
+    width: 100%;
+    background-color:hsl(212, 45%, 89%) ;
+}
+
+.container{
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 10% auto;
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bolderText{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.greyText{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        width: 80%;
+        margin: 20% auto;
+    }
+}
